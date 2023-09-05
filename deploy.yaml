@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: davidalkobi/app:09328d8
+        image: davidalkobi/app:env.sha_short
         resources:
           limits:
             memory: "128Mi"
