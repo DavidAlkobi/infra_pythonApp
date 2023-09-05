@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: davidalkobi/app:test
+        image: davidalkobi/app:test2
         resources:
           limits:
             memory: "128Mi"
